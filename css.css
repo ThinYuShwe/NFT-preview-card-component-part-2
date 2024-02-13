@@ -1,0 +1,127 @@
+body,
+main,
+section,
+div,
+p,
+img,
+h1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 22rem;
+}
+
+article {
+  border-radius: 1rem;
+  background-color: hsla(216, 51%, 16%, 0.598);
+  padding: 1rem;
+}
+
+p,
+h1 {
+  color: white;
+}
+
+article button {
+  border-radius: 0.7rem;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon {
+  border-radius: 0.7rem;
+  position: absolute;
+  top: 0;
+  width: 19.2rem;
+  height: 100%;
+  opacity: 0;
+  background-color: hsla(178, 77%, 30%, 0.594); /* Black with 50% opacity */
+  transition: opacity 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+article button > img {
+  width: 100%;
+  display: block;
+  border-radius: 0.7rem;
+}
+
+article h1 {
+  color: white;
+  margin-top: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.para1 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+#one {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.paraEth,
+.paraClock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.paraEth img {
+  width: 1.2rem;
+}
+
+.paraClock {
+  margin-left: auto;
+}
+
+.paraClock img {
+  width: 2rem;
+}
+
+#two {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+#two img {
+  width: 2.3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#two p {
+  font-size: 1.2rem;
+}
